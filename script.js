@@ -30,7 +30,7 @@ const perguntas = [
             "Um banco de dados",
 
         ],
-        correta: 2
+        correta: 1
 
 
     },
