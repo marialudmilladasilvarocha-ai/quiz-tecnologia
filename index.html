@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevQuiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <h1>DevQuiz</h1>
+
+        <p class="subtitle">Teste seus conhecimentos em Tecnologia</p>
+
+        <section id="quiz">
+
+            <h2 id="pergunta">Bem-vindo ao DEvQuiz!</h2>
+
+            <div id="alternativas"></div>
+
+            <p id="progresso"></p>
+
+            <button id="iniciar" onclick="iniciarQuiz()">
+                comecar Quiz
+            </button>
+
+            <button id="proximo" onclick="proximaPergunta()" hidden>
+                proxima pergunta
+            </button>
+
+        </section>
+
+        <div id="resultado"></div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
